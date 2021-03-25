@@ -11,3 +11,4 @@ yarn ios && yarn start // for ios
     2. Change the file name `.env.example` with enviroment specific. For example, for `dev` use `.env.dev`, similarly for prod.
     3. In the newly added file in previous step, replace the variable values with your enviroment specific values.
     4. Use cmd `yarn start:dev` or `yarn start:prod` instead `yarn start` in above mentioned cmds.
+    
