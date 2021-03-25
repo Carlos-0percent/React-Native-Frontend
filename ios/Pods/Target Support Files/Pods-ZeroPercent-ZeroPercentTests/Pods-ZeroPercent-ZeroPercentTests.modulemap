@@ -1,0 +1,6 @@
+module Pods_ZeroPercent_ZeroPercentTests {
+  umbrella header "Pods-ZeroPercent-ZeroPercentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
