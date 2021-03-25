@@ -1,6 +1,0 @@
-module Pods_ZeroPercent {
-  umbrella header "Pods-ZeroPercent-umbrella.h"
-
-  export *
-  module * { export * }
-}
