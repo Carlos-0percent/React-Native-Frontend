@@ -13,6 +13,7 @@ dist/
 
 # Package files
 *.jar
+!gradle-wrapper.jar
 
 # Maven
 target/
@@ -76,6 +77,7 @@ captures/
 # Keystore files
 *.jks
 *.keystore
+!debug.keystore
 
 ## User settings
 xcuserdata/

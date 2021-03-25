@@ -24,9 +24,9 @@
 		880B73417B6CE11200CC169B /* libPods-ZeroPercent-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE273CB8F6CA652AF4B6050 /* libPods-ZeroPercent-tvOSTests.a */; };
 		96D9E4A1D4A2467A80ED62D4 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861281C54971458E8EE267E0 /* Montserrat-Thin.ttf */; };
 		AE812C316CF27FCCE617F801 /* libPods-ZeroPercent-ZeroPercentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DCF387E8A65CF3C2EB11DB /* libPods-ZeroPercent-ZeroPercentTests.a */; };
+		B4A1ED45C0764726A9042EB9 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF1E7C0904894C5B8185101B /* Lato-Bold.ttf */; };
 		E3116086A1154120BCB6F809 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B27DA5A1308449B89C8B6FF4 /* Montserrat-Regular.ttf */; };
 		EA84B9A2D9D147F7B8702161 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBC0DE7DBC654B7EB4EF553C /* Montserrat-SemiBold.ttf */; };
-		B4A1ED45C0764726A9042EB9 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF1E7C0904894C5B8185101B /* Lato-Bold.ttf */; };
 		F641C3A15EB94F81AA91BCAE /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70B59F00FD384A5D984643C0 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -64,25 +64,25 @@
 		2D02E4901E0B4A5D006451C7 /* ZeroPercent-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZeroPercent-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFAE9B3B4BD455E704EB751 /* Pods-ZeroPercent-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroPercent-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ZeroPercent-tvOS/Pods-ZeroPercent-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		435026764F42BE87C36E6298 /* Pods-ZeroPercent-ZeroPercentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroPercent-ZeroPercentTests.release.xcconfig"; path = "Target Support Files/Pods-ZeroPercent-ZeroPercentTests/Pods-ZeroPercent-ZeroPercentTests.release.xcconfig"; sourceTree = "<group>"; };
-		53509F020C024D93A60B6743 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		53509F020C024D93A60B6743 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		55F1BEE7644F6611677A6920 /* Pods-ZeroPercent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroPercent.debug.xcconfig"; path = "Target Support Files/Pods-ZeroPercent/Pods-ZeroPercent.debug.xcconfig"; sourceTree = "<group>"; };
-		6C01414B3A9D4BDB8C303E33 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		6C01414B3A9D4BDB8C303E33 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		6D7516BA095D7FDA66569266 /* libPods-ZeroPercent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZeroPercent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B59F00FD384A5D984643C0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		72F8CB509000EDB0913F139B /* Pods-ZeroPercent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroPercent.release.xcconfig"; path = "Target Support Files/Pods-ZeroPercent/Pods-ZeroPercent.release.xcconfig"; sourceTree = "<group>"; };
 		775753B76746CC87AF114EE7 /* libPods-ZeroPercent-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZeroPercent-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ZeroPercent/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83912BD3CC2852F82E82D28E /* Pods-ZeroPercent-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroPercent-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeroPercent-tvOSTests/Pods-ZeroPercent-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		861281C54971458E8EE267E0 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
-		9F480593F16E42E1852C17A0 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		861281C54971458E8EE267E0 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		9F480593F16E42E1852C17A0 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		A3AAFF2491C649C83AA42747 /* Pods-ZeroPercent-ZeroPercentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroPercent-ZeroPercentTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeroPercent-ZeroPercentTests/Pods-ZeroPercent-ZeroPercentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8DCF387E8A65CF3C2EB11DB /* libPods-ZeroPercent-ZeroPercentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZeroPercent-ZeroPercentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B27DA5A1308449B89C8B6FF4 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		AF1E7C0904894C5B8185101B /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../src/assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B27DA5A1308449B89C8B6FF4 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		BCE273CB8F6CA652AF4B6050 /* libPods-ZeroPercent-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZeroPercent-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC0DE7DBC654B7EB4EF553C /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		CBC0DE7DBC654B7EB4EF553C /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		AF1E7C0904894C5B8185101B /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../src/assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		70B59F00FD384A5D984643C0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,6 @@
 				70B59F00FD384A5D984643C0 /* Poppins-Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		CDD44EE057DDD1842D863E8E /* Pods */ = {
@@ -227,7 +226,6 @@
 				83912BD3CC2852F82E82D28E /* Pods-ZeroPercent-tvOSTests.debug.xcconfig */,
 				22DDF856FA0229B41E4BAB61 /* Pods-ZeroPercent-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -705,7 +703,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeropercent;
 				PRODUCT_NAME = ZeroPercent;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -727,7 +725,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeropercent;
 				PRODUCT_NAME = ZeroPercent;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
