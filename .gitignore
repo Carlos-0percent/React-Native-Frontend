@@ -46,3 +46,6 @@ Thumbs.db
 # Environment setup files
 .env.*
 !.env.example
+
+# APK
+*.apk
