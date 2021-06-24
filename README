@@ -1,14 +1,71 @@
-## To start the project on android & ios
+## *Cmds to start the metro bundler*
 
-```markdown
-yarn android && yarn start // for android
-
-yarn ios && yarn start // for ios
+```
+yarn start          // in general
+yarn start:dev      // for dev env
+yarn start:prod     // for prod env
 ```
 
-### Steps for running this app on different enviroments
-    1. Make a copy of the .env.example file in the root directory.
-    2. Change the file name `.env.example` with enviroment specific. For example, for `dev` use `.env.dev`, similarly for prod.
-    3. In the newly added file in previous step, replace the variable values with your enviroment specific values.
-    4. Use cmd `yarn start:dev` or `yarn start:prod` instead `yarn start` in above mentioned cmds.
-    
+## *Cmds to run this project*
+
+```
+yarn android        // on android
+yarn ios            // on ios
+```
+
+## *Setup env file*
+
+- For general use, create `.env` and copy `.env.example` in `.env` and replace with required values.
+- For dev env, create `.env.dev` with same as above from `.env.example` and replace with required dev values.
+- For prod env, create `.env.prod` with same as above from `.env.example` and replace with required prod values.
+- All above files should be created in root directory.
+
+## *Cmd to install pods*
+
+```
+yarn pod:install
+```
+
+## *Cmd to update pods*
+
+```
+yarn pod:update
+```
+
+## *Cmd to remove installed pods*
+
+```
+yarn pod:remove
+```
+
+## *Cmd to clean android gradle*
+
+```
+yarn clean:gradle
+```
+
+## *Cmd to create android build*
+
+```
+yarn build:android
+```
+
+## *Stepwise cmds to create android debug apk*
+
+```
+yarn clean:gradle
+
+yarn build:android
+
+yarn assemble:debug
+```
+
+## *Stepwise cmds to create android release apk*
+
+```
+yarn clean:gradle
+
+yarn build:android      // after this cmd remove duplicate resources from `android/app/src/main/res` like drawable folders, raw folder
+
+yarn assemble:release
+```
